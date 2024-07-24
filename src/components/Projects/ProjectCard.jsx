@@ -1,10 +1,9 @@
+/* eslint-disable react/prop-types */
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+import  {getImageUrl}  from "../../utils";
 
-const ProjectCard = ({
-    // eslint-disable-next-line react/prop-types
-    project: { title, imageSrc, description, skills, demo, source },
-}) => {
+const ProjectCard = (props) => {
+    const {title, imageSrc, description, skills, demo, source} = props.project;
     return (
         <div className={styles.container}>
             <img
@@ -16,13 +15,12 @@ const ProjectCard = ({
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
                 {
-                    // eslint-disable-next-line react/prop-types
                     skills.map((skill, id) => {
                         return (
                             <li key={id} className={styles.skill}>
                                 {skill}
                             </li>
-                        );
+                        );  
                     })
                 }
             </ul>

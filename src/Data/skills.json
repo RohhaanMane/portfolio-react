@@ -1,11 +1,27 @@
 [
     {
+        "title": "Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title": "Spring Boot",
+        "imageSrc": "skills/springBoot.png"
+    },
+    {
+        "title": "MySQL",
+        "imageSrc": "skills/mysql.png"
+    },   
+    {
         "title": "HTML",
         "imageSrc": "skills/html.png"
     },
     {
         "title": "CSS",
         "imageSrc": "skills/css.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/js.png"
     },
     {
         "title": "React",
@@ -18,5 +34,9 @@
     {
         "title": "MongoDB",
         "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
     }
 ]

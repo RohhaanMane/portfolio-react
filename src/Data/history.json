@@ -1,11 +1,11 @@
 [
     {
-      "role": "Web Development Intern",
+      "role": "Web Development Intern, @Benchmark IT Solutions",
       "organisation": "Benchmark IT Solutions",
       "startDate": "Nov, 2021",
       "endDate": "Feb, 2022",
-      "experiences": ["Worked Python API", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "experiences": ["Worked Python API", "Implemented JWT authentication"],
+      "imageSrc": "history/benchmark-it.png"
     }
   ]
   
